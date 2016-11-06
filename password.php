@@ -5,13 +5,15 @@
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     </head>
     <body>
+      <div align = "center">
         <p>Please enter the password :</p>
-        <form action="secret.php" method="post">
+      <form action="secret.php" method="post">
             <p>
-            <input type="password" name="mot_de_passe" />
+            <input type="password" name="password" />
             <input type="submit" value="Validate" />
             </p>
         </form>
         <p>This page is for administrators</p>
+        </div>
     </body>
 </html>
