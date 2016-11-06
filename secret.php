@@ -7,7 +7,7 @@
     <body>
 
         <?php
-    if (isset($_POST['password']) AND $_POST['password'] ==  "$2y$10$8CCaOj65XyLre3aRFZaPqOTxt9pDjFfAcsQrLfopMUKFdnEPASiAm") // Si le mot de passe est bon
+    if (isset($_POST['password']) AND $_POST['password'] ==  "Test") // Si le mot de passe est bon
     {
     // On affiche les codes
     ?>
